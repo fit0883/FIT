@@ -82,17 +82,41 @@ h3 {
 .bottoms{
   text-align:center;
 }
+.table {
+  border-collapse:collapse;
+  border-top:3px solid #168;
+  border-bottom:3px solid #168;
+}
+.table th{
+  color: #168;
+  background: #f0f6f9;
+  text-align:center;
+  }
+.table th, .table td{
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+.table th:first-child, .table td:first-child{
+  border-left:3px solid #168;
+}
+.table th:last-child, .table td:last-child {
+  border-right:3px solid #168;
+}
+.table tr td:first-child{
+  text-align:center;
+}
+.table caption{caption-side: bottom; display:none;}
   </style>
 
   </head>
   <body>
 <!--상단 컨텐츠-->
 <div class="logo">
-<a href="index.html"><img src=toplogo.jpg width="13%" height="80px"></a>
+<img src=toplogo.jpg width="8%" height="50px">
 </div>
     <div class="under" style="display:inline;">
     <a href="Company.html" class="width"><img src="comintro.jpg"></a>
-    <a href="product.html" class="width"><img src="product.jpg"></a>
+    <a href="index.html" class="width"><img src="product.jpg"></a>
     <a href="rnd.html" class="width"><img src="rnd.jpg"></a>
     <!--<a href="map.html" class="width">오시는길</a>-->
   </div>
@@ -103,13 +127,27 @@ h3 {
 
 <div id="grid">
     <ul>
-      <br><a href="PDM.html" class="left"><img src="PDM.jpg"></a><br>
-      <br><a href="PLM.html" class="left"><img src="PLM.jpg"></a><br>
-      <br><a href="MES.html" class="left"><img src="MES2.jpg"></a><br>
-      <br><a href="MESS.html" class="left"><img src="MESS.jpg"></a><br>
+      <br><a href="rnd.html" class="left"><img src="rnd2.jpg"></a><br>
     </ul>
 <div class="intro">
-  본문
+<table class="table">
+  <caption>개발이력</caption>
+  <tr><th>날짜</th><th>MES</th><th>MES(Mold)</th><th>PLM</th></tr>
+  <tr><td>2015.03</td><td>덕우정밀</td><td>　</td><td>　</td></tr>
+  <tr><td>2015.06</td><td>(주)삼하기연</td><td>　</td><td>　</td></tr>
+  <tr><td>2015.11</td><td>(주)하나나노텍</td><td>　</td><td>　</td></tr>
+  <tr><td>2016.02</td><td>(주)부형정밀</td><td>　</td><td>　</td></tr>
+  <tr><td>2016.08</td><td>　</td><td>(주)대웅기연</td><td>　</td></tr>
+  <tr><td>2016.12</td><td>　</td><td>　</td><td>(주)DSC</td></tr>
+  <tr><td>2017.04</td><td>　</td><td>　</td><td>(주)세원</td></tr>
+  <tr><td>2017.06</td><td>　</td><td>(주)부형</td><td>　</td></tr>
+  <tr><td>2017.10</td><td>　</td><td>　</td><td>네오바이오텍</td></tr>
+  <tr><td>2018.05</td><td>　</td><td>　</td><td>동진이공</td></tr>
+  <tr><td>2018.09</td><td>(주)명성</td><td>　</td><td>　</td></tr>
+  <tr><td>2019.03</td><td>　</td><td>　</td><td>T.L.H</td></tr>
+  <tr><td>2019.06</td><td>(주)다산ENG</td><td>　</td><td>　</td></tr>
+</table>
+
 </div>
 </div>
 <br><br><br><br><br><br><br><br><br>
